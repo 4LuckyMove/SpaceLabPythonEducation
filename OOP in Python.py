@@ -87,7 +87,7 @@ class Automobile(Vehicle):
 
 
 
-print('>>> moto = Motorcycle(40, 120)')
+print('--> moto = Motorcycle(40, 120)')
 moto = Motorcycle(40, 120)
 print('--> moto.print_status()')
 moto.print_status()
@@ -96,7 +96,7 @@ moto.set_tires_width(90, 100)
 print('--> moto.print_tire_info()')
 moto.print_tire_info()
 
-print('\n\n>>> auto = Automobile(0, 150)')
+print('\n\n--> auto = Automobile(0, 150)')
 auto = Automobile(0, 150)
 print('--> auto.accelerate(40)')
 auto.accelerate(40)
